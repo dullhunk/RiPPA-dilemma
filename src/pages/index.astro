@@ -4,15 +4,22 @@ import ContextAlert from '../components/ContextAlert.astro';
 import Markdown from '../components/Markdown.astro';
 
 const explainer = `
-rippa.
+Despite the growing number of teaching-focused academics world-wide, a fair and consistent approach to their promotion is lacking.
+Research, a focus of more traditional roles, is still prioritised in many universities. Even promotion requirements written specifi-
+cally for teaching-focused academics may confusingly hint at research, in particular educational/pedagogic research. As a result,
+teaching-focused academics may feel tempted to go into educational/pedagogic research. This poses a number of challenges at all
+career stages. The aim of this RIPPA is to study the specific promotion requirements of teaching-focused academics in Computer
+Science, the challenges that they face when going into Computer Science Education research, and the support offered by their insti-
+tutions, before providing recommendations.
 
-rippa
+This website supports a Project Research in Practice Project Activity (RIPPA)
 `;
 ---
 
 <Layout title="Welcome to Astro.">
     <ContextAlert class="mb-8" />
-    <h1 class="mb-10">Netlify Platform Starter for Astro</h1>
+    <h1 class="mb-10">Dancing with Dilemma: Computer Science Education Research in
+Teaching-Focused Academics’ Promotion</h1>
     <Markdown content={explainer} class="mb-10 text-lg" />
     <p>
         <!--a href="https://docs.netlify.com/frameworks/astro/" class="btn btn-lg sm:min-w-64">Read the Docs</a-->
